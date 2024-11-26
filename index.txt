@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-message">
+            <h1>🎉 Happy Birthday, [Name]! 🎉</h1>
+            <p>Wishing you a wonderful day filled with joy, love, and cake! 🎂</p>
+            <button id="button">Click for a surprise!</button>
+        </div>
+        <div id="surprise" class="hidden">
+            <h2>🎁 Surprise! 🎁</h2>
+            <p>Hope your day is as special as you are! 🎉</p>
+            <img src="https://www.example.com/birthday-cake.jpg" alt="Happy Birthday" width="300">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
